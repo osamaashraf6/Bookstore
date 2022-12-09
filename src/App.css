@@ -1,3 +1,58 @@
 .App {
   text-align: center;
 }
+/* start index styles */
+/* end index styles */
+/* start universal styles */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 1.42857143;
+  background-color: #ededed;
+  position: relative;
+}
+/* end universal styles */
+/* start common styles */
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+/* end common styles */
+/* start content styles */
+/* start nav */
+nav{
+  background-color: beige;
+}
+.nav__container__parnav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__container__parnav__ul{
+  display: flex;
+
+}
+.nav__container__parnav__ul > li{
+  margin-left: 16px;
+}
+.nav__container__parnav__ul > li > a{
+padding: 20px;
+display: block;
+}
+/* end nav */
+/* end content styles */
+/* start media query styles */
+/* end media query styles */
