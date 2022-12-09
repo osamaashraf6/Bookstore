@@ -10,6 +10,7 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
+          <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="book" element={<Book />} />
         </Routes>
