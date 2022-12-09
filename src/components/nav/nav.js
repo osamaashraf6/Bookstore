@@ -9,14 +9,14 @@ function Nav() {
         <div className="container">
           <div className="nav__container__parnav">
             <div className="nav__container__parnav__brand">
-              <NavLink to="/home">Home</NavLink>
+              <NavLink to="/home">Bookstore CMS</NavLink>
             </div>
             <ul className="nav__container__parnav__ul">
-              <li><NavLink to="/home">Home</NavLink></li>
-              <li><NavLink to="/book">Book</NavLink></li>
+              <li><NavLink to="/home">BOOKS</NavLink></li>
+              <li><NavLink to="/book">CATEGORIES</NavLink></li>
             </ul>
             <div className="nav__container__parnav__user">
-              <span id="user">user</span>
+              <span id="user"><i className="fas fa-user" /></span>
             </div>
           </div>
         </div>
