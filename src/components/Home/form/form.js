@@ -6,15 +6,23 @@ function Form() {
     <>
       <hr />
       <h2>ADD NEW BOOK</h2>
-      <div className="formcontrol">
-        <input type="text" placeholder="Book Title" />
-        <select name="" id="">
-          <option value="">action</option>
-          <option value="">science fiction</option>
-          <option value="">economy</option>
-        </select>
-        <input type="submit" id="submit" />
-      </div>
+      <form action="">
+        <div className="formcontrol">
+          <input
+            type="text"
+            className="input-text"
+            placeholder="Add title"
+            name="title"
+          />
+          <input
+            type="text"
+            className="input-text"
+            placeholder="Add author"
+            name="author"
+          />
+        </div>
+      </form>
+
     </>
   );
 }

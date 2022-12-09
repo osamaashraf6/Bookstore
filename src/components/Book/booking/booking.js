@@ -3,7 +3,7 @@ import './booking.css';
 
 function Booking() {
   return (
-    <h2 id="construction">Under construction</h2>
+    <button id="catButton" type="button">Check Status</button>
   );
 }
 
