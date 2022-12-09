@@ -1,4 +1,5 @@
 import React from 'react';
+import './form.css';
 
 function Form() {
   return (
@@ -12,7 +13,7 @@ function Form() {
           <option value="">science fiction</option>
           <option value="">economy</option>
         </select>
-        <input type="submit" />
+        <input type="submit" id="submit" />
       </div>
     </>
   );

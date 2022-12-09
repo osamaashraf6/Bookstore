@@ -3,7 +3,7 @@ import './booking.css';
 
 function Booking() {
   return (
-    <h2>Under construction</h2>
+    <h2 id="construction">Under construction</h2>
   );
 }
 
