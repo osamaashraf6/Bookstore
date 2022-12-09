@@ -1,8 +1,9 @@
 import React from 'react';
+import './booking.css';
 
 function Booking() {
   return (
-    <div>Booking</div>
+    <h2>Under construction</h2>
   );
 }
 
