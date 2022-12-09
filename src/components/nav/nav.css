@@ -1,0 +1,25 @@
+/* start nav */
+nav {
+  background-color: beige;
+}
+
+.nav__container__parnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__container__parnav__ul {
+  display: flex;
+}
+
+.nav__container__parnav__ul > li {
+  margin-left: 16px;
+}
+
+.nav__container__parnav__ul > li > a {
+  padding: 20px;
+  display: block;
+}
+
+/* end nav */
