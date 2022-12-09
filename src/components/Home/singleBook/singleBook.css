@@ -1,0 +1,9 @@
+.sectionone__container__contents__content{
+    margin-bottom: 15px;
+    border: 1px solid;
+}
+.sectionone__container__contents__aside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
