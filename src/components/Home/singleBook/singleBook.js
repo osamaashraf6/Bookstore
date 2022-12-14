@@ -5,6 +5,7 @@ import { removeBook } from '../../../redux/books/books';
 import './singleBook.css';
 
 function SingleBook({ id, title, author }) {
+  // call the state and the dispatch
   const dispatch = useDispatch();
   return (
     <>
