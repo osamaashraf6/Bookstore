@@ -4,6 +4,7 @@ import SingleBook from '../singleBook/singleBook';
 import './homing.css';
 
 function Homing() {
+  // call the state
   const books = useSelector((state) => state.books);
   return (
     <>
