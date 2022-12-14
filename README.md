@@ -25,9 +25,11 @@ After you're finished please remove all the comments and instructions!
 <div align="center">
 
 
+<img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Book store</b></h3>
 
 </div>
 
@@ -78,9 +80,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- [x] I added the structure of the components and the folders of the app👍.
-- [x] I used the react-router-dom to navigate into the routes of the app💯.
-- [x] I used the basic css style for styling the components.
+- [x] I installed the redux for the app👍.
+- [x] I added the two reducer for the books and categories💯.
+- [x] I used the useSelector and useDispatch hooks in this app.
+- [x] I installed the uuid v4 for generate a public id for the single book.
 
 
 

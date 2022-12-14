@@ -1,19 +1,21 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
+import { removeBook } from '../../../redux/books/books';
 import './singleBook.css';
 
-function SingleBook({ type, title, author }) {
+function SingleBook({ id, title, author }) {
+  const dispatch = useDispatch();
   return (
     <>
 
       <div className="sectionone__container__contents__content">
         <div className="sectionone__container__contents__aside">
           <div className="sectionone__container__contents__aside__left">
-            <div>{type}</div>
             <div>{title}</div>
             <div>{author}</div>
             <button type="button">Comments</button>
-            <button type="button">Remove</button>
+            <button type="button" onClick={() => dispatch(removeBook({ id, title, author }))}>Remove</button>
             <button type="button">Edit</button>
 
           </div>
@@ -38,7 +40,7 @@ function SingleBook({ type, title, author }) {
 }
 
 SingleBook.propTypes = {
-  type: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired
   ,
