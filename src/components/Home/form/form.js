@@ -5,6 +5,7 @@ import { addBook } from '../../../redux/books/books';
 import './form.css';
 
 function Form() {
+  // call the dispatch
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
