@@ -1,10 +1,13 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
-import { removeBook } from '../../../redux/books/books';
+import { removeData } from '../../../redux/books/books__api';
 import './singleBook.css';
 
-function SingleBook({ id, title, author }) {
+function SingleBook({
+  // eslint-disable-next-line camelcase
+  item_id, title, author, category,
+}) {
   // call the state and the dispatch
   const dispatch = useDispatch();
   return (
@@ -15,8 +18,11 @@ function SingleBook({ id, title, author }) {
           <div className="sectionone__container__contents__aside__left">
             <div>{title}</div>
             <div>{author}</div>
+            <div>{category}</div>
             <button type="button">Comments</button>
-            <button type="button" onClick={() => dispatch(removeBook({ id, title, author }))}>Remove</button>
+            <button type="button" onClick={() => dispatch(removeData(item_id))}>
+              Remove
+            </button>
             <button type="button">Edit</button>
 
           </div>
@@ -41,9 +47,10 @@ function SingleBook({ id, title, author }) {
 }
 
 SingleBook.propTypes = {
-  id: PropTypes.number.isRequired,
+  item_id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired
+  author: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired
   ,
 };
 export default SingleBook;
