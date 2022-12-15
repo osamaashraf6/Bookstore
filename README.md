@@ -24,7 +24,9 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+
+<img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+
   <br/>
 
   <h3><b>Book store</b></h3>
@@ -57,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math__magicians] <a name="about-project"></a>
+# 📖 [Bookstore] <a name="about-project"></a>
 
 > This project is a Book Store app I created with react js👌, the user can add any book by the app. 
 
@@ -78,9 +80,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
+
 - [x] I added the structure of the components and the folders of the app👍.
 - [x] I used the API for adding the books into the API💯.
 - [x] I used the basic css style for styling the components.
+
 
 
 
