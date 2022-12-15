@@ -1,16 +1,23 @@
-// the types of the action
-const CHECK = 'React-BookStore/categories/Check';
-// reducer for the categoryReducer
+export const CHECK = 'React-BookStore/categories/Check';
+
+// reducer
 export default function categoryReducer(state = [], action) {
   switch (action.type) {
-    case CHECK:
-      return action.payload;
+    case `${CHECK}/fulfilled`:
+      return Object.keys(action.payload).map((key) => {
+        const { category } = action.payload[key][0];
+        return {
+          item_id: key,
+          category,
+        };
+      });
     default:
       return state;
   }
 }
-// the action creators for the check
-export const check = () => ({
+
+// action creators
+export const check = (book) => ({
   type: CHECK,
-  payload: 'Work in Progress',
+  book,
 });
