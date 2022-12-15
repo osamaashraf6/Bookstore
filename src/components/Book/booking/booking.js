@@ -4,6 +4,7 @@ import { check } from '../../../redux/categories/categories';
 import './booking.css';
 
 function Booking() {
+  // call the state and the dispatch
   const dispatch = useDispatch();
   const status = useSelector((state) => state.categories);
   return (
