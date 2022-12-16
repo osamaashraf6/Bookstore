@@ -11,8 +11,8 @@ function Booking() {
     dispatch(getDataCategory());
   }, [dispatch]);
   return (
-    <div id="ulcategory">
-      {status.length > 0 ? (status.map((book) => <li id="category" key={book.item_id}>{book.category}</li>))
+    <div className="ulcategory">
+      {status.length > 0 ? (status.map((book) => <li className="category" key={book.item_id}>{book.category}</li>))
         : (<p>No categories</p>)}
     </div>
   );

@@ -26,7 +26,7 @@ function Form() {
   return (
     <>
       <hr />
-      <h2 id="addhead">ADD NEW BOOK</h2>
+      <h2 className="addhead">ADD NEW BOOK</h2>
       <form action="">
         <div className="formcontrol">
           <input

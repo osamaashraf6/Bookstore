@@ -28,14 +28,14 @@ nav {
   display: block;
 }
 
-#user {
+.user {
   display: block;
   border: 2px solid #0290ff;
   padding: 10px;
   border-radius: 5px;
 }
 
-#user > i {
+.user > i {
   color: #0290ff;
 }
 

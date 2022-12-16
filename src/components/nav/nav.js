@@ -16,7 +16,7 @@ function Nav() {
               <li><NavLink to="/book">CATEGORIES</NavLink></li>
             </ul>
             <div className="nav__container__parnav__user">
-              <span id="user"><i className="fas fa-user" /></span>
+              <span className="user"><i className="fas fa-user" /></span>
             </div>
           </div>
         </div>

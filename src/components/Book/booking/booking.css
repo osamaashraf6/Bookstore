@@ -1,4 +1,4 @@
-#ulcategory {
+.ulcategory {
   max-height: 236px;
   background-color: #c72121;
   color: #fff;
@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 
-#category {
+.category {
   background-color: #2e3d49;
   color: #fff;
   width: 481px;

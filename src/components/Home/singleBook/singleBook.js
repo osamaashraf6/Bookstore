@@ -16,9 +16,9 @@ function SingleBook({
       <div className="sectionone__container__contents__content">
         <div className="sectionone__container__contents__aside">
           <div className="sectionone__container__contents__aside__left">
-            <div id="title">{title}</div>
-            <div id="author">{author}</div>
-            <div id="categories">{category}</div>
+            <div className="title">{title}</div>
+            <div className="author">{author}</div>
+            <div className="categories">{category}</div>
             <button type="button">Comments</button>
             <button type="button" onClick={() => dispatch(removeData(item_id))}>
               Remove
