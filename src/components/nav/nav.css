@@ -1,12 +1,18 @@
 /* start nav */
 nav {
-  background-color: beige;
+  background-color: #fff;
 }
 
 .nav__container__parnav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav__container__parnav__brand > a {
+  font-size: 24px;
+  color: #0290ff;
+  font-weight: bolder;
 }
 
 .nav__container__parnav__ul {
@@ -20,6 +26,17 @@ nav {
 .nav__container__parnav__ul > li > a {
   padding: 20px;
   display: block;
+}
+
+.user {
+  display: block;
+  border: 2px solid #0290ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user > i {
+  color: #0290ff;
 }
 
 /* end nav */

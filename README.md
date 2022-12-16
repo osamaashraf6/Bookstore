@@ -84,6 +84,8 @@ After you're finished please remove all the comments and instructions!
 - [x] I added the structure of the components and the folders of the app👍.
 - [x] I used the API for adding the books into the API💯.
 - [x] I used the basic css style for styling the components.
+- [x] Apply React best practices and language style guides in code.
+
 
 
 
