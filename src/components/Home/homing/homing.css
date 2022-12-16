@@ -1,3 +1,8 @@
-.sectionone {
+.sectionone__container__contents {
+  max-height: 550px;
+  overflow-y: auto;
+  margin: 100px 0;
+  box-shadow: 0 1px 7px #2e3d49;
+  border-radius: 5px;
   padding: 10px;
 }
