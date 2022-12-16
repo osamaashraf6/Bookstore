@@ -1,10 +1,92 @@
 .sectionone__container__contents__content {
   margin-bottom: 15px;
-  border: 1px solid;
+  border: 1px solid #0290ff;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff;
 }
 
 .sectionone__container__contents__aside {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.sectionone__container__contents__aside__left > #title,
+.sectionone__container__contents__aside__left > #category {
+  font-size: 17px;
+  color: #9e9e9e;
+  margin-bottom: 3px;
+}
+
+.sectionone__container__contents__aside__left > #author {
+  font-size: 18px;
+  color: #0290ff;
+  margin-bottom: 3px;
+}
+
+.sectionone__container__contents__aside__left > button {
+  border: 0;
+  outline: 0;
+  padding: 4px 1px;
+  width: 72px;
+  border-radius: 5px;
+  background-color: #0290ff;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.percent > .loader {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0290ff;
+  display: grid;
+  place-items: center;
+}
+
+.percent > .loader > .box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: grid;
+  place-items: center;
+}
+
+.percent {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #0290ff;
+  padding: 30px;
+}
+
+.percent span {
+  display: block;
+  margin-left: 15px;
+  font-size: 20px;
+  color: grey;
+}
+
+.sectionone__container__contents__aside__right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sectionone__container__contents__aside__right > p {
+  color: grey;
+}
+
+.sectionone__container__contents__aside__right > button {
+  border: 0;
+  outline: 0;
+  padding: 4px 1px;
+  width: 145px;
+  border-radius: 5px;
+  background-color: #0290ff;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 5px;
 }
