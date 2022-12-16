@@ -1,38 +1,24 @@
-// import the uuuid
-import { v4 as uuidv4 } from 'uuid';
 // the types of the action
-const ADD = 'React-BookStore/Books/Add';
-const REMOVE = 'React-BookStore/Books/Remove';
-// define the initial state
-const initialBooks = [
-  {
-    id: uuidv4(),
-    title: 'book1',
-    author: 'osama',
-  },
-  {
-    id: uuidv4(),
-    title: 'book2',
-    author: 'ashraf',
-  },
-  {
-    id: uuidv4(),
-    title: 'book3',
-    author: 'gamal',
-  },
-  {
-    id: uuidv4(),
-    title: 'book4',
-    author: 'salem',
-  },
-];
+export const ADD = 'React-BookStore/Books/Add';
+export const REMOVE = 'React-BookStore/Books/Remove';
+export const GET = 'React-BookStore/Books/Get';
 // reducer for the books
-export default function bookReducer(state = initialBooks, action) {
+export default function bookReducer(state = [], action) {
   switch (action.type) {
-    case ADD:
-      return [...state, action.book];
-    case REMOVE:
-      return state.filter((book) => book.id !== action.book.id);
+    case `${ADD}/fulfilled`:
+      return [...state, action.meta.arg];
+    case `${REMOVE}/fulfilled`:
+      return state.filter((book) => book.item_id !== action.meta.arg);
+    case `${GET}/fulfilled`:
+      return Object.keys(action.payload).map((key) => {
+        const { title, author, category } = action.payload[key][0];
+        return {
+          item_id: key,
+          title,
+          author,
+          category,
+        };
+      });
     default:
       return state;
   }

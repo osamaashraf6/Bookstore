@@ -80,10 +80,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- [x] I installed the redux for the app👍.
-- [x] I added the two reducer for the books and categories💯.
-- [x] I used the useSelector and useDispatch hooks in this app.
-- [x] I installed the uuid v4 for generate a public id for the single book.
+
+- [x] I added the structure of the components and the folders of the app👍.
+- [x] I used the API for adding the books into the API💯.
+- [x] I used the basic css style for styling the components.
+
 
 
 
