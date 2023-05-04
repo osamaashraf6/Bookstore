@@ -55,7 +55,13 @@
 - [x] Apply React best practices and language style guides in code.
 
 
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+[Click here 😊🚀](https://bookstore-yn94.onrender.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
