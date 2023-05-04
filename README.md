@@ -1,39 +1,6 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-
-
-<img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-
-  <br/>
-
-  <h3><b>Book store</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -61,7 +28,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Bookstore] <a name="about-project"></a>
 
-> This project is a Book Store app I created with react js👌, the user can add any book by the app. 
+- This project is a Book Store app I created with react js👌, the user can add any book by the app. 
 
 
 
@@ -69,11 +36,12 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
   <ul>
+    <li><HTML></li>
+    <li>CSS</li>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
@@ -85,7 +53,6 @@ After you're finished please remove all the comments and instructions!
 - [x] I used the API for adding the books into the API💯.
 - [x] I used the basic css style for styling the components.
 - [x] Apply React best practices and language style guides in code.
-
 
 
 
@@ -156,7 +123,6 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features I will add to the project.
 
 
 - [x] I will test this app using library from react or may be use jest to test it👌💯.
@@ -180,7 +146,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> If you like this project you can give me a star 😊 just to prove my app that it is useful for everyone and the users can use it to add any book 💯.
+- If you like this project you can give me a star 😊 just to prove my app that it is useful for everyone and the users can use it to add any book 💯.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -191,8 +157,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+This project is [MIT](https://github.com/osamaashraf6/Bookstore/blob/dev/LICENCE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
